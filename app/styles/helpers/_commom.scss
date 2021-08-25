@@ -1,0 +1,45 @@
+.caption{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $primary-color;
+    margin-bottom: 3.5rem;
+}
+
+.heading{
+    font-size: 3.6rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: (56 / 36);
+    margin-bottom: 3rem;
+    &--big{
+        font-size: 6rem;
+    }
+}
+
+.desc{
+    line-height:(34 / 18) ;
+    margin-bottom: 6.2rem;
+    &--big{
+        font-size: 2.4rem;
+    }
+}
+
+.btn{
+    text-align: center;
+    font-weight: bold;
+    height: 5.5rem;
+    padding: 0 7rem;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px; 
+    text-transform: capitalize;
+    cursor: pointer;
+    &--primary{
+        color: white;
+        background-image: linear-gradient(
+          to right,
+          $primary-color,
+          $secondary-color
+        );
+    }
+}

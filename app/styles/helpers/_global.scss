@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: $primary-font;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: $gray-light;
+    background-color: $gray-darker;
+    overflow-x: hidden;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: $primary-font;
+  font-size: 16px;
+  outline: none;
+  border: 0;
+}
+
+
+input{
+    line-height: normal;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $secondary-font;
+}
+
+.container-flud{
+    max-width: 192rem;
+    margin: 0 auto;
+    background: url('../../images/img1.jpg')  no-repeat top / 100%;
+    // background-size: cover;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+section[id] {
+    scroll-margin-top: 30px;
+}

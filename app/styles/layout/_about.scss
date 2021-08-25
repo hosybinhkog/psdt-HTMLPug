@@ -1,0 +1,25 @@
+.about{
+    .container{
+        position: relative;
+    }
+    &-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0 7rem;
+    }
+    &-content{
+        max-width: 47rem;
+        flex-shrink: 0;
+    }
+    &-img{
+        position: relative;
+    }
+    &-phone{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: inherit;
+    }
+}

@@ -1,0 +1,25 @@
+.partner{
+    margin-bottom: 20rem;
+    &-header{
+        text-align:center;
+        margin-bottom: 10rem;
+    }
+    &-list{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap:3rem ;
+    }
+    &-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 27rem;
+        height: 17rem;
+        background-color: $gray-dark;
+        border-radius:4px;
+        cursor: pointer;
+        &:hover{
+            opacity: 0.3;
+        }
+    }
+}

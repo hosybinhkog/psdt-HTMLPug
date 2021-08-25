@@ -1,0 +1,29 @@
+.experience{
+    padding-top:20rem;
+    padding-bottom: 20rem;
+    &-main{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    }
+    &-img{
+        flex-shrink: 0;
+        width: 50%;
+    }
+    &-number{
+        font-size: 40rem;
+        font-weight: 800;
+        color: $primary-color;
+        width: 100%;
+        position: relative;
+        & img{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    &-content{
+        max-width: 47rem;
+        text-align:left;
+    }
+}

@@ -1,0 +1,26 @@
+.hero{
+    padding: 27rem 0 38rem;
+    color: #ffffff;
+    &-heading{
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 12rem;
+        font-family: $secondary-font;
+        margin-bottom: 1.5rem;
+    }
+    &-caption{
+        font-size: 4rem;
+        font-weight: 600;
+        margin-bottom: 5rem;
+    }
+    &-videos{
+        display: flex;
+        align-items: center;
+        gap: 0 25px;
+        font-size: 1.8rem;
+        font-weight: 600;
+        &-img{
+            cursor: pointer;
+        }
+    }
+}
